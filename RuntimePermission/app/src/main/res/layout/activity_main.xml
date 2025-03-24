@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="动态申请权限"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="#0000ff"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"></TextView>
+    <Button
+        android:id="@+id/phonecall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="拨打电话"
+        android:textColor="#ff0000"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="50dp"></Button>
+
+</LinearLayout>
